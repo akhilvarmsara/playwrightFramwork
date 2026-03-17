@@ -8,7 +8,7 @@ let jsonData:any=DataProviders.readDataFromKJSON(jsonpath);
 
 for (const data of jsonData){
 
-    test(`Login of ${data.testcase_name} data`, async({page})=>{
+    test(`Login of ${data.testcase_name} data`, {tag:['@master', '@regression', '@sanity']}, async({page})=>{
         const testconfig=new TestConfig();
         const url=testconfig.url;
         await page.goto(url);
