@@ -1,3 +1,0 @@
-testcase_name,username,password,expected
-Valid Login,Lenna17@yahoo.com,hIJSfj__Vn4jT2Y,success
-Invalid Login,Lennfffa17@yahoo.com,hIJSfj__Vn4jT2Y5855,failure
