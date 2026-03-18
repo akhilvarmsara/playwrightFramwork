@@ -1,0 +1,3 @@
+Commands to run once after cloning the code
+npm install
+npx playwright install
