@@ -29,7 +29,7 @@ test('Complete Registration From',{tag:['@master', '@regression', '@sanity']}, a
     await homepage.validatePageTitle();
     await homepage.registerLink();
 
-    // We can directly use FakerData w/o creating object as they are static method. Static mehthods can be access directly with class name
+    // We can directly use FakerData w/o creating object as they are static method. Static methods can be access directly with class name
     
     await registerPage.completeRegistrationForm(FakerData.getFirstName(), FakerData.getLastName(), FakerData.getEmail(), password, password);
     await registerPage.validateSuccessMessage()

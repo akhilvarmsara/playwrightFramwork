@@ -8,4 +8,8 @@ export class TestConfig {
     password='hIJSfj__Vn4jT2Y';
     product='computer';
 
+    jenkinsURL= 'http://localhost:8080/';
+    jenkinsUsername= 'admin';
+    jenkinsPassword= 'admin'
+
 }
