@@ -12,4 +12,6 @@ export class TestConfig {
     jenkinsUsername= 'admin';
     jenkinsPassword= 'admin'
 
+    apiBaseURL= 'https://restful-booker.herokuapp.com'
+
 }
