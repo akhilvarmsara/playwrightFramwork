@@ -14,4 +14,6 @@ export class TestConfig {
 
     apiBaseURL= 'https://restful-booker.herokuapp.com'
 
+    facebookURL='https://www.facebook.com/'
+
 }
